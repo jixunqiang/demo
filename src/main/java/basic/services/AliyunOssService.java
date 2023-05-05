@@ -17,10 +17,10 @@ import java.util.UUID;
  */
 @Service
 public class AliyunOssService {
-    final String accessKeyId = "LTAI5tSYN3WQm9PMntwVjXZn";
-    final String accessKeySecret = "1HlZ2emCR73YRg0wryrvIbeCl4HEX6";
+    final String accessKeyId = "your accessKeyId";
+    final String accessKeySecret = "your accessKeySecret";
     final String endpoint = "oss-cn-shenzhen.aliyuncs.com";
-    final String bucketName = "jovem";
+    final String bucketName = "your bucketName";
     private final OSS ossClient;
 
     // 创建OSSClient实例
